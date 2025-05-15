@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="sticky top-0 z-50 md:flex justify-between items-center bg-[#0d0d0d] text-white py-5 px-10 text-base shadow-md border-[#414baa] border-b-[2px]">
+        <nav className="fixed top-0 left-0 right-0 z-50 md:flex justify-between items-center bg-[#0d0d0d] text-white py-5 px-10 text-base shadow-md border-[#414baa] border-b-[2px]">
             {/* Logo */}
             <div className="text-xl font-bold flex items-center space-x-2">
                 <div className="w-10 h-10 bg-[linear-gradient(to_left,_#1595b6,_rgba(31,38,103,0.9))] rounded-full flex items-center justify-center text-white font-black shadow-lg">
@@ -23,7 +23,8 @@ const Navbar = () => {
                 <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">Home</a></li>
                 <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">About</a></li>
                 <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">Project</a></li>
-                <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">Services</a></li>
+                <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">How do I work</a></li>
+                <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">Skills</a></li>
                 <li><a href="#" className="hover:text-[#7b81b4] transition duration-300">Contact</a></li>
 
                 {/* Mobile Social Icons */}
@@ -36,7 +37,7 @@ const Navbar = () => {
                         className="hover:scale-110 transition duration-300 w-9 h-9 bg-white/10 backdrop-blur rounded-full flex justify-center items-center text-white shadow"
                         aria-label="Twitter"><FaTwitter size={18} /></a>
 
-                        <a href="#"
+                    <a href="#"
                         className="hover:scale-110 transition duration-300 w-9 h-9 bg-white/10 backdrop-blur rounded-full flex justify-center items-center text-white shadow"
                         aria-label="GitHub"><FaGithub size={18} /></a>
                 </div>

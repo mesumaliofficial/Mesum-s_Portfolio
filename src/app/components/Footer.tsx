@@ -98,10 +98,10 @@ export default function Footer() {
                         <h3 className="text-lg font-bold mb-4 text-[#1595b6]">Contact</h3>
                         <ul className="space-y-3 text-sm">
                             <li className="flex items-center gap-2">
-                                Phone: <span className="font-medium">+92 300 1234 567</span>
+                                Phone: <span className="font-medium">+92 331 2096750</span>
                             </li>
                             <li className="flex items-center gap-2">
-                                Email: <span className="font-medium">info@mesum.dev</span>
+                                Email: <span className="font-medium">syedmesumjaffary@gmail.com</span>
                             </li>
                         </ul>
                     </div>

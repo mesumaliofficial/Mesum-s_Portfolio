@@ -141,7 +141,7 @@ export default function Home() {
                   </p>
                 </div>
                 {/* Matriculation */}
-                <div className="bg-gradient-to-br from-white/5 to-white/10 p-6 rounded-xl border border-white/10 hover:border-[#00ccff]/30 transition-all">
+                <div className="bg-gradient-to-br from-white/5 to-white/10 p-6 rounded-xl border border-white/10 hover:border-[#00ccff]/30 transition-all duration-300">
                   <h4 className="text-xl font-semibold">XI (Computer Science)</h4>
                   <p className="text-sm text-white/70 mb-2">Matriculation | 2022</p>
                   <p className="text-white/90">
@@ -192,7 +192,7 @@ export default function Home() {
                 ].map((item, index) => (
                   <div
                     key={index}
-                    className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-[#00ccff]/30 transition-all duration-300 hover:-translate-y-2 shadow-lg hover:shadow-[#00ccff]/20"
+                    className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:border-[#00ccff]/30 hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-[#00ccff]/20"
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                   >

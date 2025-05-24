@@ -12,7 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// ✅ SEO & Meta Data Object
 export const metadata: Metadata = {
   title: "Mesum Ali - Full Stack Developer | AI Developer | GIAIC Trainee",
   description:
@@ -62,7 +61,7 @@ export const metadata: Metadata = {
     images: ["https://mesumdev.vercel.app"],
   },
   icons: {
-    icon: "/path-to-your-favicon.ico",
+    icon: "public/Favicon.ico",
   },
 };
 

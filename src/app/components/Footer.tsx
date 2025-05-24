@@ -70,21 +70,23 @@ export default function Footer() {
                         {/* Social Media Icons */}
                         <div className="flex gap-4 mt-6 text-[#1595b6]">
                             <a
-                                href="#"
+                                href="https://www.linkedin.com/in/mesumaliofficial/"
+                                target="_blank"
                                 aria-label="LinkedIn"
                                 className="bg-black p-2 rounded-md text-white hover:text-blue-700 transition"
                             >
                                 <FaLinkedinIn size={20} />
                             </a>
                             <a
-                                href="#"
+                                href="https://x.com/smesumofficial"
                                 aria-label="Twitter"
                                 className="bg-black p-2 rounded-md text-white hover:text-blue-500 transition"
                             >
                                 <FaTwitter size={20} />
                             </a>
                             <a
-                                href="#"
+                                href="https://github.com/mesumaliofficial"
+                                target="_blank"
                                 aria-label="GitHub"
                                 className="bg-black p-2 rounded-md text-white hover:text-gray-400 transition"
                             >
